@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday Omna</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Dancing+Script:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body style="--hero-image: url('assets/Profile.jpg');">
+  <div class="cursor-glow"></div>
+  <div class="floating-bg"></div>
+
+  <nav class="navbar glass">
+    <a href="index.html" class="logo">Omna</a>
+    <div class="nav-links">
+      <a href="memories.html">Memories</a>
+      <a href="cake.html">Cake</a>
+    </div>
+  </nav>
+
+  <button class="music-btn" id="musicBtn">♪</button>
+  <audio id="bgMusic" src="assets/background-music.mp3" loop preload="auto"></audio>
+
+  <main class="hero page-section">
+    <div class="hero-overlay"></div>
+    <section class="hero-content reveal">
+      <p class="script-text">a little universe made just for you</p>
+      <h1>Happy Birthday<br><span>Moti 🐼</span></h1>
+      <p class="hero-desc">Today is wrapped in blush light, tiny stars, warm memories, and all the love you deserve.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="cake.html">Cut the Cake</a>
+      </div>
+    </section>
+
+    <aside class="countdown-card glass reveal delay-1">
+      <p class="script-text">birthday countdown</p>
+      <div class="countdown" id="countdown">
+        <div><strong id="days">00</strong><span>Days</span></div>
+        <div><strong id="hours">00</strong><span>Hours</span></div>
+        <div><strong id="mins">00</strong><span>Mins</span></div>
+        <div><strong id="secs">00</strong><span>Secs</span></div>
+      </div>
+    </aside>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
